@@ -1,5 +1,39 @@
-# Multi-Agent-Learning-Environments
-Hello, I pushed some python environments for Multi Agent Reinforcement Learning. Some are single agent version that can be used for algorithm testing. I provide documents for each environment, you can check the corresponding pdf files in each directory. These are just toy problems, though some of them are still hard to solve. Some environments are like:
+# Multi-Agent RL Framework
+
+> **Forked from [Bigpig4396/Multi-Agent-Reinforcement-Learning-Environment](https://github.com/Bigpig4396/Multi-Agent-Reinforcement-Learning-Environment)**
+
+This repository extends the original multi-agent environments with a comprehensive training and evaluation framework including DQN, PPO trainers, benchmarking tools, and visualization capabilities.
+
+## 🚀 New Framework Features
+
+- **Advanced Trainers**: DQN, PPO, and Random baseline implementations
+- **Evaluation Tools**: Comprehensive benchmarking and metrics collection
+- **Visualization**: Training curves, performance comparisons, and result analysis
+- **CLI Tools**: Easy-to-use command-line training and benchmarking scripts
+- **Configuration Management**: YAML/JSON config system for experiments
+- **Package Structure**: Proper Python package with dependencies
+
+## 📦 Quick Start
+
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Basic training example
+python examples/basic_training.py
+
+# Benchmark different algorithms
+python scripts/benchmark.py --env Cleaner --trainers dqn ppo random
+
+# Train specific model
+python scripts/train.py --env Soccer --trainer ppo --episodes 2000
+```
+
+---
+
+# Original Multi-Agent Learning Environments
+
+The original environments for Multi Agent Reinforcement Learning. Some are single agent version that can be used for algorithm testing. Documents for each environment can be found in the corresponding pdf files in each directory. These are toy problems, though some of them are still challenging to solve. Available environments include:
 
 
 ## Multi Agent Soccer Game
